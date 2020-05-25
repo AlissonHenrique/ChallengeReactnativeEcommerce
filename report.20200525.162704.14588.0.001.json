@@ -1,0 +1,606 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200525.162704.14588.0.001.json",
+    "dumpEventTime": "2020-05-25T16:27:04Z",
+    "dumpEventTimeStamp": "1590434824891",
+    "processId": 14588,
+    "threadId": null,
+    "cwd": "C:\\Users\\Alisson\\Desktop\\projetos\\Rocket\\gostack-template-fundamentos-react-native",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Alisson\\Desktop\\projetos\\Rocket\\gostack-template-fundamentos-react-native\\node_modules\\jest-worker\\build\\workers\\processChild.js"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1199718,
+        "nice": 0,
+        "sys": 607937,
+        "idle": 16611921,
+        "irq": 285109
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 290406,
+        "nice": 0,
+        "sys": 76218,
+        "idle": 18052750,
+        "irq": 3296
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 3228093,
+        "nice": 0,
+        "sys": 394390,
+        "idle": 14796890,
+        "irq": 9031
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 368765,
+        "nice": 0,
+        "sys": 78781,
+        "idle": 17971812,
+        "irq": 2875
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1806406,
+        "nice": 0,
+        "sys": 260359,
+        "idle": 16352593,
+        "irq": 9968
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 566343,
+        "nice": 0,
+        "sys": 116609,
+        "idle": 17736406,
+        "irq": 2484
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1224375,
+        "nice": 0,
+        "sys": 240890,
+        "idle": 16954093,
+        "irq": 7625
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 569234,
+        "nice": 0,
+        "sys": 121531,
+        "idle": 17728593,
+        "irq": 3062
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1242015,
+        "nice": 0,
+        "sys": 184531,
+        "idle": 16992812,
+        "irq": 4640
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 413062,
+        "nice": 0,
+        "sys": 98187,
+        "idle": 17908109,
+        "irq": 5500
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1490281,
+        "nice": 0,
+        "sys": 318890,
+        "idle": 16610187,
+        "irq": 7781
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 355390,
+        "nice": 0,
+        "sys": 151656,
+        "idle": 17912312,
+        "irq": 828
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 977484,
+        "nice": 0,
+        "sys": 285593,
+        "idle": 17156281,
+        "irq": 4906
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 299203,
+        "nice": 0,
+        "sys": 69046,
+        "idle": 18051109,
+        "irq": 1421
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 835046,
+        "nice": 0,
+        "sys": 202093,
+        "idle": 17382218,
+        "irq": 3171
+      },
+      {
+        "model": "Intel(R) Core(TM) i9-9900KF CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1383031,
+        "nice": 0,
+        "sys": 195265,
+        "idle": 16841062,
+        "irq": 8046
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "b4:2e:99:8d:d3:d4",
+        "address": "2804:14d:32b4:40d6::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "b4:2e:99:8d:d3:d4",
+        "address": "2804:14d:32b4:40d6:c874:6129:af17:d0e7",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "b4:2e:99:8d:d3:d4",
+        "address": "2804:14d:32b4:40d6:2975:95b3:a273:a2e4",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "b4:2e:99:8d:d3:d4",
+        "address": "fe80::c874:6129:af17:d0e7",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 22
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "b4:2e:99:8d:d3:d4",
+        "address": "192.168.0.13",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:23:aa:38",
+        "address": "fe80::3966:f726:98e1:1ee3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 23
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:23:aa:38",
+        "address": "172.17.249.161",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-R8FSUTP"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff78a7e2449",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff78a7e69a9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff78a7e5828",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff78a91d8c2",
+      "symbol": "v8::base::CPU::has_sse+68658"
+    },
+    {
+      "pc": "0x00007ff78b139bbe",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff78b121c91",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff78afee1ec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff78afe9eb9",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2713"
+    },
+    {
+      "pc": "0x00007ff78b00b0fb",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+107"
+    },
+    {
+      "pc": "0x00007ff78b00b081",
+      "symbol": "v8::internal::Factory::NewFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff78aee81bf",
+      "symbol": "v8::debug::Script::GetIsolate+8527"
+    },
+    {
+      "pc": "0x00007ff78ad98e6a",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+162938"
+    },
+    {
+      "pc": "0x00007ff78b586c4d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x0000029b943a9219",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2154606592,
+    "totalCommittedMemory": 2154606592,
+    "usedMemory": 2033352024,
+    "availableMemory": 81436344,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      },
+      "old_space": {
+        "memorySize": 1661349888,
+        "committedMemory": 1661349888,
+        "capacity": 1578922120,
+        "used": 1542891376,
+        "available": 36030744
+      },
+      "code_space": {
+        "memorySize": 1216512,
+        "committedMemory": 1216512,
+        "capacity": 1155072,
+        "used": 1053088,
+        "available": 101984
+      },
+      "map_space": {
+        "memorySize": 2625536,
+        "committedMemory": 2625536,
+        "capacity": 1400720,
+        "used": 1400720,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 488054784,
+        "committedMemory": 488054784,
+        "capacity": 487971248,
+        "used": 487971248,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 471.171,
+    "kernelCpuSeconds": 3.687,
+    "cpuConsumptionPercent": 116.96,
+    "maxRss": 2431262720,
+    "pageFaults": {
+      "IORequired": 1292390,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2974,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\Alisson\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132347274908498222",
+    "CLASSPATH": ".;",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-R8FSUTP",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FORCE_COLOR": "1",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Users\\Alisson\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Alisson",
+    "INIT_CWD": "C:\\Users\\Alisson\\Desktop\\projetos\\Rocket\\gostack-template-fundamentos-react-native",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_211",
+    "JEST_WORKER_ID": "4",
+    "LANG": "pt_BR.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Alisson\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-R8FSUTP",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "test",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"test\"],\"original\":[\"test\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.3 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "test",
+    "npm_lifecycle_script": "jest",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "npm_package_dependencies_intl": "^1.2.5",
+    "npm_package_dependencies_json_server": "^0.16.1",
+    "npm_package_dependencies_react": "16.11.0",
+    "npm_package_dependencies_react_native": "0.62.2",
+    "npm_package_dependencies_react_native_gesture_handler": "^1.6.1",
+    "npm_package_dependencies_react_native_iphone_x_helper": "^1.2.1",
+    "npm_package_dependencies_react_native_reanimated": "^1.8.0",
+    "npm_package_dependencies_react_native_safe_area_context": "^0.7.3",
+    "npm_package_dependencies_react_native_screens": "^2.4.0",
+    "npm_package_dependencies_react_native_vector_icons": "^6.6.0",
+    "npm_package_dependencies_styled_components": "^5.1.0",
+    "npm_package_dependencies__react_native_community_async_storage": "^1.9.0",
+    "npm_package_dependencies__react_native_community_masked_view": "^0.1.10",
+    "npm_package_dependencies__react_navigation_native": "^5.1.5",
+    "npm_package_dependencies__react_navigation_stack": "^5.2.10",
+    "npm_package_devDependencies_axios_mock_adapter": "^1.18.1",
+    "npm_package_devDependencies_babel_jest": "^24.9.0",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_package_devDependencies_eslint_config_airbnb": "^18.1.0",
+    "npm_package_devDependencies_eslint_config_airbnb_typescript": "^7.2.1",
+    "npm_package_devDependencies_eslint_config_prettier": "^6.10.1",
+    "npm_package_devDependencies_eslint_import_resolver_typescript": "^2.0.0",
+    "npm_package_devDependencies_eslint_plugin_import": "^2.20.1",
+    "npm_package_devDependencies_eslint_plugin_jsx_a11y": "^6.2.3",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.1.3",
+    "npm_package_devDependencies_eslint_plugin_react": "^7.19.0",
+    "npm_package_devDependencies_eslint_plugin_react_hooks": "^3.0.0",
+    "npm_package_devDependencies_jest": "^24.9.0",
+    "npm_package_devDependencies_metro_react_native_babel_preset": "^0.58.0",
+    "npm_package_devDependencies_prettier": "^2.0.4",
+    "npm_package_devDependencies_react_test_renderer": "16.11.0",
+    "npm_package_devDependencies_ts_jest": "^25.4.0",
+    "npm_package_devDependencies_typescript": "^3.8.3",
+    "npm_package_devDependencies__babel_core": "^7.6.2",
+    "npm_package_devDependencies__babel_runtime": "^7.6.2",
+    "npm_package_devDependencies__react_native_community_eslint_config": "^1.0.0",
+    "npm_package_devDependencies__testing_library_jest_native": "^3.1.0",
+    "npm_package_devDependencies__testing_library_react_native": "^5.0.3",
+    "npm_package_devDependencies__typescript_eslint_eslint_plugin": "^2.27.0",
+    "npm_package_devDependencies__typescript_eslint_parser": "^2.27.0",
+    "npm_package_devDependencies__types_jest": "^24.0.24",
+    "npm_package_devDependencies__types_react_native": "^0.62.0",
+    "npm_package_devDependencies__types_react_native_vector_icons": "^6.4.5",
+    "npm_package_devDependencies__types_react_test_renderer": "16.9.2",
+    "npm_package_devDependencies__types_styled_components": "^5.1.0",
+    "npm_package_name": "GoMarketplace",
+    "npm_package_private": "true",
+    "npm_package_scripts_android": "react-native run-android",
+    "npm_package_scripts_ios": "react-native run-ios",
+    "npm_package_scripts_lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "npm_package_scripts_start": "react-native start",
+    "npm_package_scripts_test": "jest",
+    "npm_package_version": "0.0.1",
+    "NUMBER_OF_PROCESSORS": "16",
+    "OneDrive": "C:\\Users\\Alisson\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\Alisson\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\Alisson\\AppData\\Local\\Temp\\yarn--1590433580742-0.3580569137556162;C:\\Users\\Alisson\\Desktop\\projetos\\Rocket\\gostack-template-fundamentos-react-native\\node_modules\\.bin;C:\\Users\\Alisson\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\Android\\Sdk\\emulator;C:\\Android\\Sdk\\tools;C:\\Android\\Sdk\\tools\\bin;C:\\Android\\Sdk\\platform-tools;C:\\Users\\Alisson\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Alisson\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Alisson\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Alisson\\AppData\\Roaming\\npm;C:\\Users\\Alisson\\AppData\\Local\\Yarn\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0d",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\Alisson\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\Alisson\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.45.1",
+    "TMP": "C:\\Users\\Alisson\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-R8FSUTP",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-R8FSUTP",
+    "USERNAME": "Alisson",
+    "USERPROFILE": "C:\\Users\\Alisson",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\Alisson\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\Alisson\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-b2123c8305-sock",
+    "windir": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
